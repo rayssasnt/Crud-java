@@ -56,10 +56,10 @@ public class CrudProduto{
     private static boolean login() {
 
         System.out.print("-----Login \uD83D\uDD10----\n");
-        System.out.println("Usuario: ");
+        System.out.println("User: ");
 
         String login = scanner.nextLine();
-        System.out.print("Senha: ");
+        System.out.print("password: ");
         String password = scanner.nextLine();
         String senhaHash = HashUtil.gerarHash(password);
 
